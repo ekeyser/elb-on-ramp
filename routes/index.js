@@ -3,7 +3,7 @@ var router = express.Router();
 
 router.get("/", function (req, res, next) {
     res.setHeader("content-type", "application/json");
-    res.send(JSON.stringify({version: "1.0"}));
+    res.send(JSON.stringify({version: "hello"}));
 });
 
 module.exports = router;
