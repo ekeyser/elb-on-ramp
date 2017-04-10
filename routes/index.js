@@ -5,7 +5,7 @@ router.get("/", function (req, res, next) {
     "use strict";
 
     res.setHeader("content-type", "application/json");
-    res.send(JSON.stringify({id: "sup bitch"}));
+    res.send(JSON.stringify({status: "OK"}));
 });
 
 module.exports = router;
